@@ -61,3 +61,17 @@ body{
 	border-color: var(--light);
     background-color: rgba(0, 255, 255, 0.683);
 }
+
+@media screen and (max-width: 760px) {
+    
+    .label{
+        width: 75%;
+    }
+
+
+    .cb:checked + .label .ball {
+        transform: translateX(190%);
+        background-color: var(--light);
+    }
+
+}
